@@ -38,7 +38,7 @@ There is more customizable elements borders in theme. Check it out!
 
 # Customization
 
-1. Open `BorderShapes.theme.css` file in text editor.
+1. Open theme file in text editor.
 2. Change variables. For example:
 
 from `--borders-avatars: 50%;` (circle avatars)
