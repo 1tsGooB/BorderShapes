@@ -40,7 +40,7 @@ There is more customizable elements borders in theme. Check it out!
 
 There are two variable types in this theme - basic and root. Basic variables located in theme file. With them you can change main stuff. Root variables located in `base.css` file. With them you can provide more compatibility with other themes and change special stuff. All types of variables can be changed in similiar way.
 
-**How to change variables**
+**How to change variables:**
 
 1. Open theme file in text editor.
 2. Change variables. For example:
