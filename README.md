@@ -31,12 +31,16 @@ There is more customizable elements borders in theme. Check it out!
 
 **For Powercord:**
 
-1. Click [here](https://github.com/JayWilson7/BorderShapes/archive/master.zip) to download theme archive.
-2. Open Powercord themes folder `.../powercord/src/Powercord/themes`.
-3. Put all files from theme archive in this folder.
+1. Open terminal or command line.
+2. Go to Powercord themes folder: `cd powercord/src/Powercord/themes`.
+3. Clone theme repository: `git clone github.com/JayWilson7/BorderShapes`.
 4. Restart Discord.
 
 # Customization
+
+There are two variable types in this theme - basic and root. Basic variables located in theme file. With them you can change main stuff. Root variables located in `base.css` file. With them you can provide more compatibility with other themes and change special stuff. All types of variables can be changed in similiar way.
+
+**How to change variables**
 
 1. Open theme file in text editor.
 2. Change variables. For example:
@@ -47,25 +51,30 @@ to `--borders-avatars: 0%` (square avatars)
 
 3. Save changes.
 
+**How to get root variables:**
+
+3. Find `base.css` file in this repository and open it.
+4. Copy variables from `Root Variables` section including `:root` and brackets.
+1. Go to your client themes folder.
+2. Open theme file in text editor.
+5. Paste all root variables in theme in `Root Variables` section.
+6. Save changes.
+
 # Updating
 
-Most stuff in theme updating automatically. But if theme stopped working or working incorrectly, it means you need to update theme manually:
+Most stuff in theme updating automatically. But if theme stopped working or working incorrectly, it means you need to update theme manually.
+
+**On BetterDiscord:**
 
 1. Go to your client themes folder.
 2. Delete theme file or theme folder.
 3. Follow steps from [Installation](https://github.com/JayWilson7/BorderShapes#installation) section.
 
-# Root Variables
+**On Powercord:**
 
-Root variables provide more compatibility with other themes or change special stuff in theme. How to get root variables: 
-
-3. Find and open `base.css` file in this repository.
-4. Copy variables from `Root Variables` section.
-1. Go to your client themes folder.
-2. Open theme file in text editor.
-5. Paste all root variables in theme file.
-6. Change variables.
-7. Save changes.
+1. Open terminal or command line.
+2. Go to BorderShapes theme folder: `cd powercord/src/Powercord/themes/BorderShapes`.
+3. Update theme: `git pull`.
 
 # Credits
 
