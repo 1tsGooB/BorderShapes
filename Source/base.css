@@ -539,6 +539,10 @@ button,
 #app-mount .bd-changelog-modal video {
    border-radius: var(--borders-media);
 }
+#app-mount .roundedMask-3rB_-f foreignObject {
+   mask: none;
+   border-radius: var(--borders-media);
+}
 #app-mount .hero-EvfTTA,
 #app-mount .headerImage-3X1tyY {
    border-radius: 0;
@@ -593,6 +597,15 @@ button,
 #app-mount .voiceSectionNoGuildImageWrapper-TicZR3 {
    -webkit-mask: none;
            mask: none;
+   border-radius: var(--borders-servers-default);
+}
+#app-mount .avatarMask-2SqW1n foreignObject {
+   mask: none;
+   border-radius: var(--borders-servers-default);
+}
+#app-mount .avatarMask-2SqW1n,
+#app-mount .avatar-3z61ij {
+   box-shadow: 0 0 0 4px var(--borders-color-primary);
    border-radius: var(--borders-servers-default);
 }
 #app-mount .wrapper-25eVIn foreignObject {
@@ -670,6 +683,11 @@ button,
 #app-mount .partyAvatar-1Bvt5q {
    background-color: var(--borders-color-floating);
    box-shadow: 0 0 0 2px var(--borders-color-floating);
+}
+#app-mount .reaction-1hd86g .wrapper-3t9DeA {
+   mask: none;
+   margin: 0 2px;
+   border-radius: var(--borders-avatars);
 }
 #app-mount .wrapper-3t9DeA svg:not(:root),
 #app-mount .peopleListItem-2nzedh,
@@ -918,6 +936,7 @@ button,
  /*-----<Icons Border Shapes>-----*/
 /*-------------------------------*/
 
+#app-mount .divider-3yU4s2,
 #app-mount .assetsLargeImage-eYwpTX,
 #app-mount .large-1DtyYQ,
 #app-mount .medium-2wqF9d,
@@ -997,6 +1016,10 @@ button,
 #app-mount .notificationDot-18QulZ {
    box-shadow: 0 0 0 2px var(--borders-color-textarea);
    border-radius: var(--borders-icons-default);
+}
+#app-mount .imageLoading-bpSr0M {
+   transform: scale(1.5);
+   clip-path: inset(20% round var(--borders-icons-default));
 }
 #app-mount .assetsLargeMaskProfile-1Qkfen,
 #app-mount .assetsLargeMaskStreamPreview-2V7xlA,
@@ -1107,8 +1130,13 @@ button,
    box-shadow: 0 0 0 3px var(--borders-color-tertiary);
    border-radius: var(--borders-labels-large);
 }
+#app-mount .reaction-1hd86g .moreUsers-1s5Her {
+   margin: 0 0 0 2px;
+   border-radius: var(--borders-labels-large);
+}
 #app-mount .option-1B5ZV8,
 #app-mount .feature-3kpTdS,
+#app-mount .countdownText-3tHeVw,
 #app-mount .indicator-2Qs3-E,
 #app-mount .newTag-38ErDv,
 #app-mount .rem-2m9HGf.botTag-2WPJ74,
