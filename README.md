@@ -22,14 +22,14 @@ There is more customizable elements borders in theme. Check it out!
 
 # Installation 
 
-**For BetterDiscord:**
+**On BetterDiscord:**
 
 1. Click [here](https://betterdiscord.net/ghdl?id=3403) to download theme file.
 2. Go to BetterDiscord themes folder: `.../AppData/Roaming/BetterDiscord/themes`.
 3. Put your theme file in this folder.
 4. Enable theme in Discord settings.
 
-**For Powercord:**
+**On Powercord:**
 
 1. Open terminal or command line.
 2. Go to Powercord themes folder: `cd powercord/src/Powercord/themes`.
@@ -73,7 +73,7 @@ Most stuff in theme updating automatically. But if theme stopped working or work
 **On Powercord:**
 
 1. Open terminal or command line.
-2. Go to BorderShapes theme folder: `cd powercord/src/Powercord/themes/BorderShapes`.
+2. Go to theme folder: `cd powercord/src/Powercord/themes/BorderShapes`.
 3. Update theme: `git pull`.
 
 # Credits
