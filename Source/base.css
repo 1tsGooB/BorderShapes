@@ -245,6 +245,8 @@
 #app-mount .bar-3urHkF,
 #app-mount .barInner-3NDaY_,
 #app-mount .userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o .sliderBar-3DezvM,
+#app-mount .small-4dgL9e,
+#app-mount .xsmall-2LuBKD,
 #app-mount .bar-_YsHvC {
    border-radius: var(--borders-progress-bars);
 }
@@ -471,7 +473,9 @@
 #app-mount .bumpBox-1r5p3c,
 #app-mount .paymentPane-3bwJ6A,
 #app-mount .expandedInfo-3kfShd,
+#app-mount .rowWrapper-2fB6P0,
 #app-mount .row-1bU71H,
+#app-mount .content-35aVm0,
 #app-mount .warning-n1YvYR,
 #app-mount .qrCode-wG6ZgU,
 #app-mount .authBox-hW6HRx,
@@ -490,11 +494,14 @@
 #app-mount .tierHeader-rlkkJd,
 #app-mount .tierHeader---JJFb,
 #app-mount .container-2fRDfG,
-#app-mount .open-kZ53_U,
 #app-mount .upsellContent-1JlpHe,
 #app-mount .enableContainer-6E-puu,
 #app-mount .section-foaVwT:first-child {
-   border-radius: var(--borders-cards) var(--borders-cards) 0 0;
+   border-radius: var(--borders-cards) var(--borders-cards) 0 0 !important;
+}
+#app-mount .open-kZ53_U {
+   border-radius: var(--borders-cards) var(--borders-cards) 0 0 !important;
+   transition: 0.1s ease-out;
 }
 #app-mount .popout-VcNcHB,
 #app-mount .tierBody-16Chc9,
@@ -549,6 +556,10 @@
 #app-mount .header-2DNSXx,
 #app-mount .footer-1lnhms,
 #app-mount .root-3tU4d2,
+#app-mount .item-3V15ea,
+#app-mount .overlappingBorder-1-XPGl,
+#app-mount .storePaginationImg-2P8SMo,
+#app-mount .assetWrapper-2Qw_5D,
 #app-mount .bd-changelog-modal video {
    border-radius: var(--borders-media);
 }
@@ -1017,6 +1028,7 @@
 #app-mount .dotOnline-8Ag7EB,
 #app-mount .dotOffline-3DXoDy,
 #app-mount .status-2L8Zc7,
+#app-mount .dot-33s_8n,
 #app-mount .channelIcon-g61PDh,
 #app-mount .checklistIcon-6Kez2J .checkbox-1ix_J3,
 #app-mount .iconWrapper-2JyIpA,
@@ -1024,6 +1036,7 @@
 #app-mount .memberDot-y8-JHF,
 #app-mount .editCircle-ityklj,
 #app-mount .iconCircle-36YzEX,
+#app-mount .circle-1nK_79,
 #app-mount .toast-icon,
 #app-mount .bd-server-icon,
 #app-mount .bd-server-count-dot,
@@ -1153,6 +1166,7 @@
 #app-mount .guildDetails-2p1NmK,
 #app-mount .label-9FgsSa,
 #app-mount .badge-_BgAUQ,
+#app-mount .price-NUANu6,
 #app-mount .bd-server-tag {
    border-radius: var(--borders-labels-large) !important;
 }
@@ -1196,6 +1210,8 @@
 #app-mount .feature-3kpTdS,
 #app-mount .countdownText-3tHeVw,
 #app-mount .indicator-2Qs3-E,
+#app-mount .defaultIndicator-3WqGFB,
+#app-mount .installSize-1eXbBX,
 #app-mount .newTag-38ErDv,
 #app-mount .rem-2m9HGf.botTag-2WPJ74,
 #app-mount .px-10SIf7.botTag-2WPJ74,
