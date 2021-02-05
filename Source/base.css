@@ -38,7 +38,7 @@
  /*-----<Buttons Border Shapes>-----*/
 /*---------------------------------*/
 
-button,
+#app-mount button,
 #app-mount .layout-2DM8Md,
 #app-mount .content-1x5b-n,
 #app-mount .content-1Wq3SX,
@@ -80,6 +80,13 @@ button,
 #app-mount .gif-1TcNIB,
 #app-mount .categoryFade-2ybR1J,
 #app-mount .categoryFadeBlurple-1j72_A,
+#app-mount .react-datepicker__navigation.react-datepicker__navigation--next,
+#app-mount .react-datepicker__navigation.react-datepicker__navigation--previous,
+#app-mount .react-datepicker__week:first-of-type .react-datepicker__day:first-of-type,
+#app-mount .react-datepicker__week:first-of-type .react-datepicker__day:last-of-type,
+#app-mount .react-datepicker__week:last-of-type .react-datepicker__day:first-of-type,
+#app-mount .react-datepicker__week:last-of-type .react-datepicker__day:last-of-type,
+#app-mount .hintValue-29ny8Z,
 #app-mount .result-3w1ZcL,
 #app-mount .result-3w1ZcL::after,
 #app-mount .sourceThumbnail-27dolk,
@@ -116,6 +123,8 @@ button,
 #app-mount .section-Kprrfe,
 #app-mount .remove-3V-yj8,
 #app-mount .wrapper-2siovq,
+#app-mount .streamerModeEnabledBtn-2ZJ2eq,
+#app-mount .selectGuild-1Ygl76,
 #app-mount #bd-editor-controls button,
 #app-mount .channelTabs-selected,
 #app-mount .bd-button,
@@ -128,7 +137,7 @@ button,
 #app-mount .styledGuildsAsChannels-DNHtg_ .wrapper-1Rf91z .wrapper-1BJsBx,
 #app-mount .styledGuildsAsChannels-DNHtg_ .wrapper-1Rf91z .circleIconButton-jET_ig,
 #app-mount #EditUploadsToolbar .tool,
-#app-mount .listRow-hutiT_
+#app-mount .listRow-hutiT_,
 #app-mount .header-2-Imhb .tab-ck0077,
 #app-mount #pubslayer .ui-tab-bar-item,
 #app-mount #permissions-modal-wrapper .role-item {
@@ -187,7 +196,7 @@ button,
 #app-mount .powercord-quickcss-editor-settings .close,
 #app-mount .roundButton-CEHyUp,
 #app-mount .channelTabs-newTab {
-   border-radius: var(--borders-buttons-circle);
+   border-radius: var(--borders-buttons-circle) !important;
 }
 
   /*-----------------------------------------*/
@@ -203,6 +212,7 @@ button,
    rx: var(--borders-switches);
 }
 #app-mount .checkbox-1ix_J3,
+#app-mount .checkbox-3kaeSU .checkboxInner-3yjcPe span,
 #bd-editor-controls .checkbox-3kaeSU .checkboxInner-3yjcPe span {
    border-radius: var(--borders-checkboxes);
 }
@@ -461,6 +471,8 @@ button,
 #app-mount .bumpBox-1r5p3c,
 #app-mount .paymentPane-3bwJ6A,
 #app-mount .expandedInfo-3kfShd,
+#app-mount .row-1bU71H,
+#app-mount .warning-n1YvYR,
 #app-mount .qrCode-wG6ZgU,
 #app-mount .authBox-hW6HRx,
 #app-mount .bd-addon-list .bd-addon-card,
@@ -480,7 +492,8 @@ button,
 #app-mount .container-2fRDfG,
 #app-mount .open-kZ53_U,
 #app-mount .upsellContent-1JlpHe,
-#app-mount .enableContainer-6E-puu {
+#app-mount .enableContainer-6E-puu,
+#app-mount .section-foaVwT:first-child {
    border-radius: var(--borders-cards) var(--borders-cards) 0 0;
 }
 #app-mount .popout-VcNcHB,
@@ -488,8 +501,10 @@ button,
 #app-mount .css-1ye7vu0,
 #app-mount .css-ix84ef-menu,
 #app-mount .css-3vaxre-menu,
+#app-mount .cardFolder-28dwxo,
 #app-mount .upsellFooter-ZYsio_,
 #app-mount .previewContainer-1SS3uO,
+#app-mount .section-foaVwT:last-child,
 #app-mount .bd-select .bd-select-options,
 #app-mount #inputContext > div.css-6fzn47-control {
    border-radius: 0 0 var(--borders-cards) var(--borders-cards);
@@ -533,6 +548,7 @@ button,
 #app-mount .splashContainer-1rUZiJ,
 #app-mount .header-2DNSXx,
 #app-mount .footer-1lnhms,
+#app-mount .root-3tU4d2,
 #app-mount .bd-changelog-modal video {
    border-radius: var(--borders-media);
 }
@@ -631,6 +647,7 @@ button,
  /*-----<Avatar Stuff Border Shapes>-----*/
 /*--------------------------------------*/
 
+#app-mount .placeholderAvatar-damqh6,
 #app-mount .avatarUploaderInner-2EvNMg,
 #app-mount .avatarWrapperNormal-3wFMbf,
 #app-mount .overlay-4k_Q4-,
@@ -1172,6 +1189,9 @@ button,
    margin: 0 0 0 2px;
    border-radius: var(--borders-labels-large);
 }
+#app-mount .memberGroupsPlaceholder-3mwPub,
+#app-mount .mulitplePlaceholderUsername-pogq9I,
+#app-mount .placeholderUsername-2B_OA9,
 #app-mount .option-1B5ZV8,
 #app-mount .feature-3kpTdS,
 #app-mount .countdownText-3tHeVw,
