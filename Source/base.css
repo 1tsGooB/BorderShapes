@@ -719,7 +719,7 @@
 #app-mount .expandedFolderBackground-2sPsd- {
    border-radius: var(--borders-folders);
 }
-#app-mount .wrapper-1BJsBx .da-wrapper .selected-bZ3Lue da-selected {
+#app-mount .wrapper-1BJsBx .da-wrapper .selected-bZ3Lue .da-selected {
    border-radius: var(--borders-servers-selected)
 }
 
