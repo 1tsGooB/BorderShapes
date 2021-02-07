@@ -36,6 +36,18 @@ There is more customizable elements borders in theme. Check it out!
 3. Clone theme repository: `git clone github.com/JayWilson7/BorderShapes`.
 4. Restart Discord.
 
+**On Vizality:**
+
+*Method one*
+
+1. Go to the theme folder: `vizality\addons\themes`.
+2. Open terminal or command line in the theme folder.
+3. Install theme: `git clone https://github.com/JayWilson7/BorderShapes`.
+
+*Method two*
+
+run the vizality theme installer command in any channel `.theme install https://github.com/JayWilson7/BorderShapes`
+
 # Customization
 
 There are two variable types in this theme - basic and root. Basic variables located in theme file. With them you can change main stuff. Root variables located in `base.css` file. With them you can provide more compatibility with other themes and change special stuff. All types of variables can be changed in similiar way.
@@ -74,6 +86,12 @@ Most stuff in theme updating automatically. But if theme stopped working or work
 
 1. Open terminal or command line.
 2. Go to theme folder: `cd powercord/src/Powercord/themes/BorderShapes`.
+3. Update theme: `git pull`.
+
+**On Vizality:**
+
+1. Open terminal or command line.
+2. Go to theme folder: `cd vizality\addons\themes`.
 3. Update theme: `git pull`.
 
 # Credits
