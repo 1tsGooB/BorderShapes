@@ -61,11 +61,6 @@
    --borders-navigation-highlight: 0px; /*Border shapes for navigation highlight when you press TAB. 25px for circle, 0px for square*/
    --borders-toasts: 0px; /*Border shapes for toasts. 25px for circle, 0px for square*/
    --borders-code-editors: 0px; /*Border shapes for code editors workspace. 10px for circle, 0px for square*/
-   --status-color-activity-online: #43b581; /*Color for "Online" statuses on activity background. Default - #fff*/
-   --status-color-activity-idle: #faab1a; /*Color for "Idle" statuses on activity background. Default - #fff*/
-   --status-color-activity-dnd: #f04747; /*Color for "Do Not Disturb" statuses on activity background. Default - #fff*/
-   --status-color-activity-streaming: #593695; /*Color for "Streaming" statuses on activity background. Default - #fff*/
-   --status-color-activity-offline: #747f8d; /*Color for "Offline" statuses on activity background. Default - #fff*/
 
   /*--------------------------*/
  /*-----<Root Variables>-----*/
